@@ -1,0 +1,21 @@
+my_ids = (3123, 123, 4445, 7668, 9797)
+my_ids_list = list(my_ids)
+my_ids_list.append(True)
+my_ids_tuple = tuple(my_ids_list)
+print(my_ids_tuple)
+
+my_games = ('GTA', 'Genshin Impact', 'Honkai Star Rail')
+games_list = list(my_games)
+games_list.append('Red Dead Redeption 2')
+games_tuple = tuple(games_list)
+print(games_tuple)
+print(type(games_tuple))
+print(id(games_tuple))
+
+
+moves_list = ['Interstellar', 'Marcianin', 'iron Man', 'Spiderman']
+moves_tuple = tuple(moves_list)
+print(moves_tuple)
+print(type(moves_tuple))
+print(id(moves_tuple))
+print(moves_list)
